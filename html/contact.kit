@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group - Najpiękniejszy park w okolicy</title>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./dist/css/nav.min.css">
+    <link rel="stylesheet" href="./dist/css/footer.min.css">
+    <link rel="stylesheet" href="./dist/css/contact.min.css">
+    <script src="https://kit.fontawesome.com/05eb19a694.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <!-- @include 'nav.kit' -->
+    <main>
+        <section class="hero">
+            <div class="hero__text">
+                <p>Forest Group</p>
+                <h1>Skontaktuj sie z nami</h1>
+            </div>
+        </section>
+        <section class="contact__form">
+            <label for="name">Imie i Nazwisko</label>
+            <input type="text" required id="name">
+            <label for="email">Email</label>
+            <input type="email" required id="email">
+            <label for="message">Wiadomość</label>
+            <textarea id="message" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Wyslij" class="btn">
+        </section>
+        <section class="contact__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49242.22011190885!2d20.10421540806758!3d49.56048736071743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715fd5b22a9cee9%3A0xa8cdfe3f6546ffdf!2sGorcza%C5%84ski%20Park%20Narodowy!5e0!3m2!1spl!2spl!4v1724516245572!5m2!1spl!2spl"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <!-- @include 'footer.kit' -->
+</body>
+
+</html>
